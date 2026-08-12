@@ -1,11 +1,11 @@
 # Base62 encode/decode
 
-Turn integers into short Base62 ids and back again. No dependencies, no external services.
+Encode integers to short Base62 ids and back — dependency-free.
 
-Just the standard library.
+TypeScript Base62 uses only the typescript standard library; there is no service or dependency to install.
 
 ```
 base62.ts
 ```
 
-Check the test file next to the source for usage examples.
+Run the TypeScript Base62 test next to the implementation for concrete examples.
