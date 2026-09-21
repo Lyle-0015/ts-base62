@@ -1,11 +1,10 @@
 # Base62 encode/decode
 
-Encode integers to short Base62 ids and back — dependency-free.
+Turn integers into short Base62 IDs and decode them back. Shorter IDs mean smaller database indexes and fewer tokens when passing them around in LLM prompts. I wrote this to keep things fast and avoid pulling in heavy third-party packages.
 
-TypeScript Base62 uses only the typescript standard library; there is no service or dependency to install.
+This TypeScript implementation relies entirely on the standard library. You do not need to install any external services or npm dependencies. That keeps your bundle size small and prevents vendor lock-in.
 
 ```
 base62.ts
 ```
-
-Run the TypeScript Base62 test next to the implementation for concrete examples.
+Check the test file sitting right next to the implementation if you need to see how the encoding logic actually works in practice.
